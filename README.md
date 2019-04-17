@@ -17,11 +17,11 @@ To evaluate pre-trained models run the evaluate.py script.
 Some examples:
 
 #### Evaluate MPED-RNN on all cameras individually and all cameras combined on HR-ShanghaiTech.
-> python evaluate.py --gpu_ids 0 --gpu_memory 0.2 combined_models ./pretrained/CVPR19/ShanghaiTech/combined_model/_mp_Grobust_Lrobust_Orobust_concatdown_
+> python evaluate.py --gpu_ids 0 --gpu_memory 0.2 combined_models ./pretrained/CVPR19/ShanghaiTech/combined_model/\_mp_Grobust_Lrobust_Orobust_concatdown\_
  ./data/HR-ShanghaiTech/testing/trajectories ./data/HR-ShanghaiTech/testing/frame_level_masks --video_resolution 856x480 --overlapping_trajectories
 
 #### Evaluate MPED-RNN on HR-Avenue.
-> python evaluate.py --gpu_ids 0 --gpu_memory 0.2 combined_model ./pretrained/CVPR19/Avenue/combined_model/_mp_Grobust_Lrobust_Orobust_concatdown_/01_2018_11_13_06_36_20 
+> python evaluate.py --gpu_ids 0 --gpu_memory 0.2 combined_model ./pretrained/CVPR19/Avenue/combined_model/\_mp_Grobust_Lrobust_Orobust_concatdown\_/01_2018_11_13_06_36_20 
 ./data/HR-Avenue/testing/trajectories/01 ./data/HR-Avenue/testing/frame_level_masks/01 --video_resolution 640x360 --overlapping_trajectories
 
 # Train Models from Scratch
