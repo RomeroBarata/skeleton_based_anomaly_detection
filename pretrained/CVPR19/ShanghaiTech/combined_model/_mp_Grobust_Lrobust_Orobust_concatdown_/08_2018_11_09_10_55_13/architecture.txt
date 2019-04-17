@@ -1,0 +1,19 @@
+input_length 12
+global_input_dim 4
+local_input_dim 34
+reconstruction_length 12
+prediction_length 6
+global_hidden_dims 8
+local_hidden_dims 16
+extra_hidden_dims
+output_activation linear
+reconstruct_reverse True
+reconstruct_original_data True
+multiple_outputs True
+multiple_outputs_before_concatenation True
+cell_type gru
+optimiser adam
+learning_rate 0.001
+loss mse
+l1_reg 0.0
+l2_reg 0.0
