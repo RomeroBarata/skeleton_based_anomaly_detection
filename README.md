@@ -1,4 +1,4 @@
-This is the code for the CVPR'19 paper ["Learning Regularity in Skeleton Trajectories for Anomaly Detection in Videos".](https://arxiv.org/abs/1903.03295)
+This is the code for the CVPR'19 paper ["Learning Regularity in Skeleton Trajectories for Anomaly Detection in Videos".](https://openaccess.thecvf.com/content_CVPR_2019/html/Morais_Learning_Regularity_in_Skeleton_Trajectories_for_Anomaly_Detection_in_Videos_CVPR_2019_paper.html)
 
 # Environment Setup
 First please create an appropriate environment using conda: 
@@ -10,7 +10,7 @@ First please create an appropriate environment using conda:
 # Download Data
 Due to space constraints in the Github repository, please download the data from the following link and place the `data` folder in this directory.
 
-Link: [trajectories](https://bit.ly/2WGHz56)
+Link: [trajectories](https://bit.ly/2TWCxFY)
 
 # Test Pre-Trained Models
 To evaluate pre-trained models run the evaluate.py script.
